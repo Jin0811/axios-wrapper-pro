@@ -25,7 +25,12 @@
     "请求重试"
   ],
   "author": "Jin0811",
-  "license": "ISC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jin0811/axios-wrapper-pro.git"
+  },
+  "homepage": "https://github.com/Jin0811/axio-wrapper-pro",
   "peerDependencies": {
     "axios": "*"
   },
