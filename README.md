@@ -16,11 +16,13 @@
 
 ```bash
 # npm安装
-npm install axios-wrapper-pro
+npm install axios axios-wrapper-pro
 
 # yarn安装
-yarn add axios-wrapper-pro
+yarn add axios axios-wrapper-pro
 ```
+
+**注意：** axios-wrapper-pro 依赖 axios，请确保同时安装。
 
 ## 使用方法
 
