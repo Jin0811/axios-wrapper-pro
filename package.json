@@ -1,0 +1,40 @@
+{
+  "name": "axios-wrapper-pro",
+  "version": "1.0.0",
+  "description": "基于 Axios 的增强型 HTTP 客户端，支持请求去重、自动取消、重试机制和可配置拦截器",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "publish": "npm publish",
+    "test": "npm test"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "Axios",
+    "请求拦截",
+    "响应拦截",
+    "请求去重",
+    "自动取消",
+    "请求重试"
+  ],
+  "author": "Jin0811",
+  "license": "ISC",
+  "peerDependencies": {
+    "axios": "*"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.0.0",
+    "axios": "^1.6.0",
+    "ts-loader": "^9.5.0",
+    "webpack": "^5.90.0",
+    "webpack-cli": "^5.1.0"
+  }
+}
