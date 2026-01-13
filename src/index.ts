@@ -1,4 +1,4 @@
-import axios, { AxiosError, AxiosInstance, AxiosRequestConfig, InternalAxiosRequestConfig } from "axios";
+import axios, { AxiosInstance, AxiosRequestConfig, InternalAxiosRequestConfig } from "axios";
 import { isFunction, sleep } from "./utils";
 import { DEFAULT_CONFIG, DEFAULT_RETRY_CONFIG, DEFAULT_INTERCEPTOR } from "./config";
 import type { AxiosWrapperProOptions, RetryConfig, InterceptorConfig, RequestConfig, RequestKey } from "./types";
